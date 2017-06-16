@@ -1,4 +1,4 @@
-package com.veritas;
+package com.ps;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,7 +21,6 @@ public class Stock {
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -46,7 +45,6 @@ public class Stock {
 			reader.close();
 			con.disconnect();			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		result = sb.toString();
