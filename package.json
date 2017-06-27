@@ -1,0 +1,22 @@
+{
+  "name": "stockmanager",
+  "version": "1.0.0",
+  "description": "stock information collection",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungle0127/stockmanager.git"
+  },
+  "author": "ps.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungle0127/stockmanager/issues"
+  },
+  "homepage": "https://github.com/jungle0127/stockmanager#readme",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
